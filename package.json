@@ -1,0 +1,15 @@
+{
+    "name": "@ichi/sdk",
+    "license": "MIT",
+    "version": "1.0.0",
+    "description": "🛠 An SDK for building applications on top of ichi.org.",
+    "repository": "https://github.com/ichifarm/ichi-sdk",
+    "keywords": [
+        "ethereum",
+        "ichi",
+        "ichifarm"
+    ],
+    "dependencies": {
+        "onetoken": "git+https://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:x-oauth-basic@github.com/ichifarm/ichi-oneToken.git#42c2b7f"
+    }
+}
