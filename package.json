@@ -9,7 +9,25 @@
         "ichi",
         "ichifarm"
     ],
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "module": "dist/sdk.esm.js",
+    "scripts": {
+        "lint": "tsdx lint src test",
+        "build": "tsdx build",
+        "start": "tsdx watch",
+        "test": "tsdx test",
+        "prepublishOnly": "tsdx build"
+    },
     "dependencies": {
         "onetoken": "git+https://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:x-oauth-basic@github.com/ichifarm/ichi-oneToken.git#42c2b7f"
+    },
+    "devDependencies": {
+        "tsdx": "^0.14.1"
+    },
+    "prettier": {
+        "printWidth": 120,
+        "semi": false,
+        "singleQuote": true
     }
 }
