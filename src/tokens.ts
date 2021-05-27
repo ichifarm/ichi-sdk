@@ -1,0 +1,28 @@
+import { ChainId } from './constants'
+
+export const ICHI_Token = {
+    [ChainId.MAINNET]: '0x903bEF1736CDdf2A537176cf3C64579C3867A881',
+    [ChainId.KOVAN]: '0x883Cc74d965edB77311A3f9a93649e92E2aa14ba'
+}
+  
+export const XICHI_Token = {
+    [ChainId.MAINNET]: '0x70605a6457B0A8fBf1EEE896911895296eAB467E'
+}
+
+export enum V1_TOKEN_ID {
+    oneBTC = 0,
+    oneETH = 1,
+    oneLINK = 2,
+    oneWING = 3,
+    oneVBTC = 4
+}
+
+export const ONE_TOKENS_V1 = {
+    [V1_TOKEN_ID.oneBTC]: '0xC88F47067dB2E25851317A2FDaE73a22c0777c37',
+    [V1_TOKEN_ID.oneETH]: '0xEc0d77a58528a218cBf41Fa6E1585c8D7A085868',
+    [V1_TOKEN_ID.oneLINK]: '0x18Cc17a1EeD37C02A77B0B96b7890C7730E2a2CF',
+    [V1_TOKEN_ID.oneWING]: '0x8F041A3940a5e6FB580075C3774E15FcFA0E1618',
+    [V1_TOKEN_ID.oneVBTC]: '0x7BD198b9107496fD5cC3d7655AF52f43a8eDBc4C'
+}
+
+
