@@ -19,9 +19,6 @@
         "test": "tsdx test",
         "prepublishOnly": "tsdx build"
     },
-    "dependencies": {
-        "onetoken": "git+https://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:x-oauth-basic@github.com/ichifarm/ichi-oneToken.git#42c2b7f"
-    },
     "devDependencies": {
         "tsdx": "^0.14.1"
     },
