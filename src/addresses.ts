@@ -14,4 +14,3 @@ export const ichiFarmV2 = {
   [ChainId.MAINNET]: '0x275dFE03bc036257Cd0a713EE819Dbd4529739c8',
   [ChainId.KOVAN]: '0xCfF363294b876F27dF7aCe9584B243177bF618af'
 }
-
